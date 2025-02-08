@@ -1,0 +1,51 @@
+@import '../style/sass/variables';
+
+.row-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  .inp-container {
+    display: flex;
+    height: $element-height;
+  }
+  .inp-container button {
+    width: 10%;
+    height: $element-height;
+    border: none;
+    background-color: #dadada;
+  }
+  .dropdown {
+    width: 15%;
+  }
+  .select-btn {
+    font-weight: 600;
+    border: none;
+    height: $element-height;
+    border: none;
+    background-color: #dadada;
+  }
+  .login-container {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    width: 15%;
+  }
+  .login-container a {
+    text-decoration: none;
+    color: white;
+  }
+  .user-icon {
+    padding: 0.2em;
+    font-size: $icon-font;
+  }
+  .ul-list {
+    display: flex;
+    gap: 20px;
+  }
+  .list-icon {
+    list-style-type: none;
+    font-size: $icon-font;
+  }
+  
